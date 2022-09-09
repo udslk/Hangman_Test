@@ -59,7 +59,7 @@
     ```
 
 - Below screenshot shows the output of ask_letter() method:
->![image](https://github.com/udslk/Hangman_Test/blob/main/images/Success-Hangman.PNG?raw=true)
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/ask_letter-method-output.PNG?raw=true)
 
 ## Milestone 3: Initialisation of __init__ method
 - This method initialises the following attributes of the game class:
@@ -258,9 +258,9 @@
         pass
     ```
  - Below screenshot shows the output when the user wins the game:
->![image](https://github.com/udslk/Hangman_Test/blob/main/images/Success-Hangman.png?raw=true)   
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/Success-Hangman.PNG?raw=true)   
 - Below screenshot shows the output when the user loses the game:
->![image](https://github.com/udslk/Hangman_Test/blob/main/images/failure-Hangman.png?raw=true) 
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/failure-Hangman.PNG?raw=true) 
 
 ## Conclusions
 - This project teaches how to write a simple python program. It teaches about,
