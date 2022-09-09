@@ -59,7 +59,7 @@
     ```
 
 - Below screenshot shows the output of ask_letter() method:
->![image](../images/ask_letter-method-output.png)
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/Success-Hangman.PNG?raw=true)
 
 ## Milestone 3: Initialisation of __init__ method
 - This method initialises the following attributes of the game class:
