@@ -258,9 +258,9 @@
         pass
     ```
  - Below screenshot shows the output when the user wins the game:
->![image](images\Success-Hangman.png)   
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/Success-Hangman.png?raw=true)   
 - Below screenshot shows the output when the user loses the game:
->![image](images\failure-Hangman.png) 
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/failure-Hangman.png?raw=true) 
 
 ## Conclusions
 - This project teaches how to write a simple python program. It teaches about,
