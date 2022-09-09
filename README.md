@@ -269,4 +269,4 @@
     - what is __init__ function 
     - how to write a while loop and for loop statements
     - how to define and use strings and list variables
-- This code needs optimisation in-terms of using the memory efficiently, mainly using the list and string variables and the functions written for drawving the Hangman
+- This code needs optimisation in-terms of using the memory efficiently, mainly using the list and string variables and the functions written for drawing the Hangman
