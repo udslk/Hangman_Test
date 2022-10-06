@@ -59,7 +59,7 @@
     ```
 
 - Below screenshot shows the output of ask_letter() method:
->![image](images\ask_letter-method-output.png)
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/ask_letter-method-output.PNG?raw=true)
 
 ## Milestone 3: Initialisation of __init__ method
 - This method initialises the following attributes of the game class:
@@ -258,9 +258,9 @@
         pass
     ```
  - Below screenshot shows the output when the user wins the game:
->![image](images\Success-Hangman.png)   
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/Success-Hangman.PNG?raw=true)   
 - Below screenshot shows the output when the user loses the game:
->![image](images\failure-Hangman.png) 
+>![image](https://github.com/udslk/Hangman_Test/blob/main/images/failure-Hangman.PNG?raw=true) 
 
 ## Conclusions
 - This project teaches how to write a simple python program. It teaches about,
@@ -269,4 +269,4 @@
     - what is __init__ function 
     - how to write a while loop and for loop statements
     - how to define and use strings and list variables
-- This code needs optimisation in-terms of using the memory efficiently, mainly using the list and string variables and the functions written for drawving the Hangman
+- This code needs optimisation in-terms of using the memory efficiently, mainly using the list and string variables and the functions written for drawing the Hangman
