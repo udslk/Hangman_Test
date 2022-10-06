@@ -41,8 +41,8 @@
             if len(letter) > 1:
                 print('Please, enter just one character')
             elif len(letter) == 1:
-                    if self.list_letters.find(letter) == -1:
-                        self.list_letters += letter
+                    if letter not in self.list_letters:
+                        self.list_letters.append(letter)
                         self.check_letter(letter)
                         break
                     else:                 
@@ -67,7 +67,7 @@
     -  word_guessed: This is a list variable and been used to store letters which have been guessed correctly by the user. This is created first with the length of number of characters in the word and then assigns each item of the list with '_'.
     -  num_letters: This is an integer variable which stores the number of unique letters in the word.
     -  num_lives: This is an integer variable and used to store number of remaining attempts that user have to guess the letter. This is initialised with max attempts five.
-    -   list_letters: This is a string variable and is used to store the letters that have already been tried. This is initialised with empty character ' '.       
+    -   list_letters: This is a list variable and is used to store the letters that have already been tried. 
 -  Below snippet shows the python code for this method:
    ```python
    def __init__(self, word_list, num_lives=5):
@@ -75,7 +75,7 @@
         self.num_letters = len(set(self.word))
         self.word_guessed = ['_']*len(self.word)
         self.num_lives = num_lives
-        self.list_letters = ''
+        self.list_letters = []
         
         print(f'The mystery word has {len(self.word)} characters')
         print(f'The word guessed is {self.word_guessed} ')
