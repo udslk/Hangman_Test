@@ -46,7 +46,7 @@ class Hangman:
         self.num_letters = len(set(self.word))
         self.word_guessed = ['_']*len(self.word)
         self.num_lives = num_lives
-        self.list_letters = ''
+        self.list_letters = []
         
         print(f'The mystery word has {len(self.word)} characters')
         print(f'The word guessed is {self.word_guessed} ')
@@ -99,8 +99,8 @@ class Hangman:
             if len(letter) > 1:
                 print('Please, enter just one character')
             elif len(letter) == 1:
-                    if self.list_letters.find(letter) == -1:
-                        self.list_letters += letter
+                    if letter not in self.list_letters:
+                        self.list_letters.append(letter)
                         self.check_letter(letter)
                         break
                     else:                 
