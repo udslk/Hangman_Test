@@ -1,4 +1,3 @@
-# Example Project Documentation Guideline
 # Hangman Project Report
 #### This project implements the Hangman game using Python programming language. The Hangman game asks the user to resolve the computer chosen word by asking the letters in the word interactively. If the user successfully resolves the word puzzle it will congratulate the user and stops the game. If the user fails to resolve the word puzzle by selecting the letter of the word incorrectly in five attempts (max), it will visualise the Hangman in stages for each failed attempt until it displays the Hangman completely at end of the game. This game uses the random Python library to select a word randomly from a given word list. This game is implemented using five project Milestones. It also uses Git DevOps tool to control the version of the source code and stores it in centralised repository system called GitHub.  
 
